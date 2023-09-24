@@ -1,3 +1,50 @@
-p {
-    text-align: center;
+body {
+    background-image: url(../images/background-temp.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    color: rgb(255, 255, 255);
+    font-family: monospace;
+}
+
+#body {
+    background-color: rgba(61, 51, 72, 0.65);
+    width: 60%;
+    padding: 5%;
+    margin: auto;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+h1 {
+    font-size: 5em;
+}
+
+h3 {
+    font-size: 3em;
+}
+
+p, li, a {
+    font-size: 1.8em;
+}
+
+.nav {
+    width:100%;
+    padding: 0%;
+    margin: 0%;
+}
+.nav a {
+    margin-left: 0%;
+    padding: 8px 16px;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+.nav a:hover {
+    background-color: #333333bb;
+}
+
+.flyer {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 25%;
 }
