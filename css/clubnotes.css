@@ -1,6 +1,6 @@
 .accordion {
-    background-color: #eee;
-    color: #444;
+    background-color: rgba(40, 40, 40, 0.45);
+    color: rgb(255, 255, 255);
     cursor: pointer;
     padding: 18px;
     width: 100%;
@@ -11,13 +11,64 @@
 }
 
 .active, .accordion:hover {
-    background-color: #ccc;
+    background-color: rgba(40, 40, 40, 0.8);
 }
 
 .panel {
     padding: 0 18px;
-    background-color: #fff;
-    display: none;
+    background-color: rgba(60, 60, 60, 0.40);
+    color: #aaa;
+    max-height: 0;
     overflow: hidden;
     transition: max-height 0.2s ease-out;
+}
+
+.entry {
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+
+.dropbtn {
+    background-color: #04AA6D;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    position: absolute;
+    right: 0px;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+    width: 100%;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    right: 0px;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {
+    background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown:hover .dropbtn {
+    background-color: #3e8e41;
 }
