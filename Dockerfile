@@ -8,7 +8,4 @@ COPY  images/ /usr/share/nginx/html/images
 COPY  scripts/ /usr/share/nginx/html/scripts
 COPY index.html /usr/share/nginx/html/index.html
 
-
-EXPOSE 80
-
 CMD ["nginx", "-g", "daemon off;"]
