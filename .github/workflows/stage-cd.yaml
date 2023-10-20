@@ -13,3 +13,4 @@ jobs:
     with:
       ENV: 'staging'
       CREATE_PR: false
+      STACK_REPO: 'deployment-configurations'

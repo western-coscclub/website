@@ -11,3 +11,4 @@ jobs:
     with:
       ENV: 'prod'
       CREATE_PR: true
+      STACK_REPO: 'deployment-configurations'
